@@ -1,3 +1,7 @@
-module.exports = multi = (a, b) => {
+const multi = (a, b) => {
   return a * b;
+};
+
+module.exports = {
+  multi,
 };

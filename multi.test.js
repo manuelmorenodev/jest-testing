@@ -1,4 +1,4 @@
-const multi = require("./multi");
+const { multi } = require("./multi");
 
 describe("Testing multi function", () => {
   it("Should exists", () => {
