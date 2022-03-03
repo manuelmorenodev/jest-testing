@@ -10,4 +10,7 @@ describe("Testing multi function", () => {
   it("Should return 4 for 2, 2", () => {
     expect(multi(2, 2)).toBe(4);
   });
+  it("Should not return 4 for 2, 3", () => {
+    expect(multi(2, 3)).not.toBe(4);
+  });
 });
